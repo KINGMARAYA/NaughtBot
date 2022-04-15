@@ -1,6 +1,6 @@
 FROM fusuf/whatsasena:latest
 
-RUN git clone https://github.com/BlackAmda/NaughtBot /root/NaughtBot
+RUN git clone https://github.com/KINGMARAYA/NaughtBot /root/NaughtBot
 WORKDIR /root/NaughtBot/
 ENV TZ=Europe/Istanbul
 RUN npm install supervisor -g
